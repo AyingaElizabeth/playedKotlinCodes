@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home2">
+
+    <fragment
+        android:id="@+id/contactUs"
+        android:name="com.kotlinliza.combination.fragments.ContactUs"
+        android:label="contact us"
+        tools:layout="@layout/fragment_contact_us" />
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.kotlinliza.combination.fragments.Home"
+        android:label="home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/library"
+        android:name="com.kotlinliza.combination.fragments.Library"
+        android:label="library"
+        tools:layout="@layout/fragment_library" />
+    <fragment
+        android:id="@+id/graduation"
+        android:name="com.kotlinliza.combination.fragments.Graduation"
+        android:label="graduation"
+        tools:layout="@layout/fragment_graduation" />
+</navigation>
